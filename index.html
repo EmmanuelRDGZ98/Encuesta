@@ -1,0 +1,59 @@
+<html>
+    <body>
+        <form>
+            <label>VIDEOJUEGOS</label>        
+            <br>
+            <br>
+            <label>Favorito</label>
+            <input type="text"  placeholder="Aqui va tu juego favorito" />
+            <br>
+            <br>
+            <label>Consola favorita</label>
+            <br>
+
+        
+        <input type="radio" id="consolaSwitch" name="consola" value="switch">
+        <label for="consolaSwitch">Switch</label>
+        <br>
+        <input type="radio" id="consolaPS" name="consola" value="ps">
+        <label for="consolaPS">PS5</label>
+
+        <br>
+        <input type="radio" id="consolaXbox" name="consola" value="xbox">
+        <label for="consolaXbox">Xbox</label>
+
+        <br>
+        <input type="radio" id="consolaOtro" name="consola" value="otro">
+        <label for="consolaOtro">Otro</label>
+
+        <br>
+        <br>
+        <label>En donde has jugado</label>
+        <br>
+        <input type="checkbox" id="consolaSwitch" name="consolas[]" value="switch">
+        <label for="consolaSwitch">Nintendo Switch</label>
+        <br>
+        <input type="checkbox" id="consolaPS" name="consolas[]" value="ps">
+        <label for="consolaPS">PlayStation</label>
+        <br>
+        <input type="checkbox" id="consolaXbox" name="consolas[]" value="xbox">
+        <label for="consolaXbox">Xbox</label>
+        <br>
+        <input type="checkbox" id="consolaOtro" name="consolas[]" value="otro">
+        <label for="consolaOtro">Otro (especifica abajo)</label>
+        <br>
+        <br>
+        <input type="text" id="consolaOtraEspecifica" placeholder="Especifica otra consola (opcional)">
+
+        <br>
+        <br>
+        <label>Cuando fue la ultima vez que jugaste</label>
+        <br>
+        <input type="date" name="fecha" />
+        <br>
+        <br>
+        <Input type="submit" name="Enviar"/>
+
+        </form>
+    </body>
+</html>
